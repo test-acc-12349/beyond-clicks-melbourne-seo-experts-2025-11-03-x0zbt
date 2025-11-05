@@ -48,27 +48,9 @@
         .cta-button:hover {
             transform: scale(1.05);
         }
-        
-        .faq-icon {
-            transition: transform 300ms ease-in-out;
-        }
 
         .faq-item {
             border-bottom: 1px solid #e5e7eb;
-        }
-
-        .faq-item.active .faq-icon {
-            transform: rotate(180deg);
-        }
-
-        .faq-content {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 300ms ease-in-out;
-        }
-
-        .faq-item.active .faq-content {
-            max-height: 500px;
         }
     </style>
 </head>
@@ -186,11 +168,8 @@
                 <div class="space-y-4">
                     <!-- FAQ Item 1 -->
                     <div class="faq-item">
-                        <button class="faq-toggle w-full flex items-center justify-between py-4 px-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" onclick="toggleFAQ(this)">
-                            <span class="text-lg font-semibold text-gray-900 text-left">What is zero click search and why does it matter for SEO?</span>
-                            <i class="fas fa-chevron-down faq-icon text-purple-600"></i>
-                        </button>
-                        <div class="faq-content px-4 pb-4">
+                        <div class="py-4 px-4 bg-gray-50 rounded-lg">
+                            <h3 class="text-lg font-semibold text-gray-900 mb-2">What is zero click search and why does it matter for SEO?</h3>
                             <p class="text-gray-700 leading-relaxed">
                                 Zero click search occurs when users get answers directly from Google's search results page without clicking through to a website. This happens through featured snippets, knowledge panels, local packs, and other SERP features. It matters for SEO because it increases brand visibility and establishes authority. When optimized correctly, zero click search can drive significant traffic and conversions even without direct clicks.
                             </p>
@@ -199,11 +178,8 @@
 
                     <!-- FAQ Item 2 -->
                     <div class="faq-item">
-                        <button class="faq-toggle w-full flex items-center justify-between py-4 px-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" onclick="toggleFAQ(this)">
-                            <span class="text-lg font-semibold text-gray-900 text-left">How can I optimize my content for featured snippets?</span>
-                            <i class="fas fa-chevron-down faq-icon text-purple-600"></i>
-                        </button>
-                        <div class="faq-content px-4 pb-4">
+                        <div class="py-4 px-4 bg-gray-50 rounded-lg">
+                            <h3 class="text-lg font-semibold text-gray-900 mb-2">How can I optimize my content for featured snippets?</h3>
                             <p class="text-gray-700 leading-relaxed">
                                 To optimize for featured snippets, structure your content to directly answer common questions. Use clear, concise language in 40-60 word answers for paragraph snippets. Include relevant keywords naturally, use proper heading tags for organization, and consider using lists and tables for different content types. Analyze current featured snippets in your industry and create content specifically designed to capture them.
                             </p>
@@ -212,11 +188,8 @@
 
                     <!-- FAQ Item 3 -->
                     <div class="faq-item">
-                        <button class="faq-toggle w-full flex items-center justify-between py-4 px-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" onclick="toggleFAQ(this)">
-                            <span class="text-lg font-semibold text-gray-900 text-left">Why are Core Web Vitals important for SEO in 2026?</span>
-                            <i class="fas fa-chevron-down faq-icon text-purple-600"></i>
-                        </button>
-                        <div class="faq-content px-4 pb-4">
+                        <div class="py-4 px-4 bg-gray-50 rounded-lg">
+                            <h3 class="text-lg font-semibold text-gray-900 mb-2">Why are Core Web Vitals important for SEO in 2026?</h3>
                             <p class="text-gray-700 leading-relaxed">
                                 Core Web Vitals measure user experience metrics including page speed, interactivity, and visual stability. Google uses these metrics as ranking factors because they directly impact user satisfaction. In 2026, websites with excellent Core Web Vitals rank higher and attract more engaged visitors. Optimizing these technical elements is essential for competitive SEO performance and improving overall user experience.
                             </p>
@@ -225,11 +198,8 @@
 
                     <!-- FAQ Item 4 -->
                     <div class="faq-item">
-                        <button class="faq-toggle w-full flex items-center justify-between py-4 px-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" onclick="toggleFAQ(this)">
-                            <span class="text-lg font-semibold text-gray-900 text-left">What role does E-E-A-T play in modern SEO strategy?</span>
-                            <i class="fas fa-chevron-down faq-icon text-purple-600"></i>
-                        </button>
-                        <div class="faq-content px-4 pb-4">
+                        <div class="py-4 px-4 bg-gray-50 rounded-lg">
+                            <h3 class="text-lg font-semibold text-gray-900 mb-2">What role does E-E-A-T play in modern SEO strategy?</h3>
                             <p class="text-gray-700 leading-relaxed">
                                 E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) is increasingly important for SEO success. Google prioritizes content that demonstrates deep expertise, is written by qualified authors, and comes from authoritative sources. To improve your E-E-A-T, showcase author credentials, cite reputable sources, provide original research, and build a strong online reputation. This is particularly important for YMYL (Your Money Your Life) content.
                             </p>
@@ -238,11 +208,8 @@
 
                     <!-- FAQ Item 5 -->
                     <div class="faq-item">
-                        <button class="faq-toggle w-full flex items-center justify-between py-4 px-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors" onclick="toggleFAQ(this)">
-                            <span class="text-lg font-semibold text-gray-900 text-left">How should I approach link building in 2026?</span>
-                            <i class="fas fa-chevron-down faq-icon text-purple-600"></i>
-                        </button>
-                        <div class="faq-content px-4 pb-4">
+                        <div class="py-4 px-4 bg-gray-50 rounded-lg">
+                            <h3 class="text-lg font-semibold text-gray-900 mb-2">How should I approach link building in 2026?</h3>
                             <p class="text-gray-700 leading-relaxed">
                                 Modern link building focuses on earning quality links from authoritative, relevant websites. Create exceptional content that naturally attracts links, build relationships within your industry, and reach out to journalists and bloggers with valuable insights. Avoid manipulative tactics and focus on genuine relationship building. Quality links from reputable sources remain one of the strongest SEO ranking factors in 2026.
                             </p>
@@ -299,12 +266,5 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        function toggleFAQ(button) {
-            const faqItem = button.closest('.faq-item');
-            faqItem.classList.toggle('active');
-        }
-    </script>
 </body>
 </html>
