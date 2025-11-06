@@ -9,20 +9,27 @@
     <title>Beyond Clicks: Melbourne SEO Experts | Premium SEO Services</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
         html {
             scroll-behavior: smooth;
         }
         
         .gradient-text {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
         
         .hero-gradient {
-            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 50%, #f0fdf4 100%);
         }
         
         .feature-card {
@@ -48,16 +55,28 @@
         .cta-button:hover {
             transform: scale(1.05);
         }
+        
+        .bg-dark {
+            background-color: #1a1a1a;
+        }
+        
+        .text-light-gray {
+            color: #a1a1aa;
+        }
+        
+        .border-dark {
+            border-color: #374151;
+        }
     </style>
 </head>
-<body class="bg-white text-gray-900">
+<body class="bg-dark text-white">
     <!-- Header Navigation -->
-    <header class="sticky top-0 z-50 bg-white shadow-md">
+    <header class="sticky top-0 z-50 bg-dark shadow-lg border-b border-dark">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <!-- Logo -->
                 <div class="flex items-center space-x-2">
-                    <div class="w-10 h-10 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center">
+                    <div class="w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-600 rounded-lg flex items-center justify-center">
                         <i class="fas fa-rocket text-white text-lg"></i>
                     </div>
                     <span class="text-xl font-bold gradient-text">Beyond Clicks</span>
@@ -65,49 +84,49 @@
 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="#features" class="text-gray-700 hover:text-purple-600 transition-colors duration-300 font-medium">Features</a>
-                    <a href="#benefits" class="text-gray-700 hover:text-purple-600 transition-colors duration-300 font-medium">Benefits</a>
-                    <a href="#testimonials" class="text-gray-700 hover:text-purple-600 transition-colors duration-300 font-medium">Testimonials</a>
-                    <a href="#faq" class="text-gray-700 hover:text-purple-600 transition-colors duration-300 font-medium">FAQ</a>
-                    <a href="services.html" class="text-gray-700 hover:text-purple-600 transition-colors duration-300 font-medium">Services</a>
-                    <a href="https://test.com" class="cta-button px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-lg font-semibold hover:shadow-lg">Get Started</a>
+                    <a href="#features" class="text-light-gray hover:text-green-500 transition-colors duration-300 font-medium">Features</a>
+                    <a href="#benefits" class="text-light-gray hover:text-green-500 transition-colors duration-300 font-medium">Benefits</a>
+                    <a href="#testimonials" class="text-light-gray hover:text-green-500 transition-colors duration-300 font-medium">Testimonials</a>
+                    <a href="#faq" class="text-light-gray hover:text-green-500 transition-colors duration-300 font-medium">FAQ</a>
+                    <a href="services.html" class="text-light-gray hover:text-green-500 transition-colors duration-300 font-medium">Services</a>
+                    <a href="https://test.com" class="cta-button px-6 py-2 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-lg font-semibold hover:shadow-lg">Get Started</a>
                 </div>
 
                 <!-- Mobile Menu Button -->
-                <button class="md:hidden mobile-menu-button p-2 rounded-lg hover:bg-gray-100 transition-colors duration-300" aria-label="Toggle menu">
-                    <i class="fas fa-bars text-gray-700 text-xl"></i>
+                <button class="md:hidden mobile-menu-button p-2 rounded-lg hover:bg-gray-800 transition-colors duration-300" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-light-gray text-xl"></i>
                 </button>
             </div>
 
             <!-- Mobile Menu -->
             <div class="mobile-menu hidden md:hidden pb-4">
                 <div class="flex flex-col space-y-3">
-                    <a href="#features" class="text-gray-700 hover:text-purple-600 transition-colors duration-300 font-medium px-4 py-2 rounded-lg hover:bg-gray-50">Features</a>
-                    <a href="#benefits" class="text-gray-700 hover:text-purple-600 transition-colors duration-300 font-medium px-4 py-2 rounded-lg hover:bg-gray-50">Benefits</a>
-                    <a href="#testimonials" class="text-gray-700 hover:text-purple-600 transition-colors duration-300 font-medium px-4 py-2 rounded-lg hover:bg-gray-50">Testimonials</a>
-                    <a href="#faq" class="text-gray-700 hover:text-purple-600 transition-colors duration-300 font-medium px-4 py-2 rounded-lg hover:bg-gray-50">FAQ</a>
-                    <a href="services.html" class="text-gray-700 hover:text-purple-600 transition-colors duration-300 font-medium px-4 py-2 rounded-lg hover:bg-gray-50">Services</a>
-                    <a href="https://test.com" class="cta-button px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-lg font-semibold hover:shadow-lg text-center">Get Started</a>
+                    <a href="#features" class="text-light-gray hover:text-green-500 transition-colors duration-300 font-medium px-4 py-2 rounded-lg hover:bg-gray-800">Features</a>
+                    <a href="#benefits" class="text-light-gray hover:text-green-500 transition-colors duration-300 font-medium px-4 py-2 rounded-lg hover:bg-gray-800">Benefits</a>
+                    <a href="#testimonials" class="text-light-gray hover:text-green-500 transition-colors duration-300 font-medium px-4 py-2 rounded-lg hover:bg-gray-800">Testimonials</a>
+                    <a href="#faq" class="text-light-gray hover:text-green-500 transition-colors duration-300 font-medium px-4 py-2 rounded-lg hover:bg-gray-800">FAQ</a>
+                    <a href="services.html" class="text-light-gray hover:text-green-500 transition-colors duration-300 font-medium px-4 py-2 rounded-lg hover:bg-gray-800">Services</a>
+                    <a href="https://test.com" class="cta-button px-6 py-2 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-lg font-semibold hover:shadow-lg text-center">Get Started</a>
                 </div>
             </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero-gradient py-20 md:py-32 lg:py-40">
+    <section class="bg-dark py-20 md:py-32 lg:py-40">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-4xl mx-auto">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight md:leading-tight lg:leading-tight tracking-tight mb-6">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight md:leading-tight lg:leading-tight tracking-tight mb-6">
                     Melbourne <span class="gradient-text">SEO Traffic Experts</span>
                 </h1>
-                <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-8 max-w-2xl mx-auto">
+                <p class="text-lg md:text-xl text-light-gray leading-relaxed mb-8 max-w-2xl mx-auto">
                     We don't just rank you; we connect you with ready-to-buy customers. Our proven SEO strategies transform your online presence into a powerful revenue-generating machine.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <a href="https://test.com" class="cta-button px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-lg font-bold text-lg hover:shadow-xl transition-all duration-300">
+                    <a href="https://test.com" class="cta-button px-8 py-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-lg font-bold text-lg hover:shadow-xl transition-all duration-300">
                         Start Your SEO Journey
                     </a>
-                    <a href="#features" class="px-8 py-4 border-2 border-purple-600 text-purple-600 rounded-lg font-bold text-lg hover:bg-purple-50 transition-all duration-300">
+                    <a href="#features" class="px-8 py-4 border-2 border-green-500 text-green-500 rounded-lg font-bold text-lg hover:bg-green-500 hover:text-white transition-all duration-300">
                         Learn More
                     </a>
                 </div>
@@ -116,88 +135,88 @@
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="py-16 md:py-24 bg-white">
+    <section id="features" class="py-16 md:py-24 bg-gray-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 tracking-tight">
                     Our Comprehensive SEO Solutions
                 </h2>
-                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                <p class="text-lg text-light-gray max-w-2xl mx-auto">
                     We combine cutting-edge techniques with strategic expertise to deliver measurable results for your business.
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Feature 1: User Experience Focused SEO -->
-                <div class="feature-card p-8 bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl border border-gray-200 hover:border-purple-300">
-                    <div class="w-14 h-14 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center mb-6">
+                <div class="feature-card p-8 bg-gray-800 rounded-xl border border-gray-700 hover:border-green-500">
+                    <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-600 rounded-lg flex items-center justify-center mb-6">
                         <i class="fas fa-eye text-white text-2xl"></i>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">User Experience Focused SEO</h3>
-                    <p class="text-gray-700 leading-relaxed mb-4">
+                    <h3 class="text-2xl font-bold text-white mb-4">User Experience Focused SEO</h3>
+                    <p class="text-light-gray leading-relaxed mb-4">
                         We prioritize user experience as the cornerstone of our SEO strategy. By optimizing site speed, mobile responsiveness, and navigation flow, we ensure your visitors have seamless interactions that lead to conversions.
                     </p>
-                    <ul class="space-y-2 text-gray-600">
+                    <ul class="space-y-2 text-gray-300">
                         <li class="flex items-start">
-                            <i class="fas fa-check text-purple-600 mr-3 mt-1 flex-shrink-0"></i>
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
                             <span>Core Web Vitals optimization</span>
                         </li>
                         <li class="flex items-start">
-                            <i class="fas fa-check text-purple-600 mr-3 mt-1 flex-shrink-0"></i>
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
                             <span>Mobile-first indexing strategy</span>
                         </li>
                         <li class="flex items-start">
-                            <i class="fas fa-check text-purple-600 mr-3 mt-1 flex-shrink-0"></i>
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
                             <span>Conversion rate optimization</span>
                         </li>
                     </ul>
                 </div>
 
                 <!-- Feature 2: Content Strategy -->
-                <div class="feature-card p-8 bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl border border-gray-200 hover:border-purple-300">
-                    <div class="w-14 h-14 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center mb-6">
+                <div class="feature-card p-8 bg-gray-800 rounded-xl border border-gray-700 hover:border-green-500">
+                    <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-600 rounded-lg flex items-center justify-center mb-6">
                         <i class="fas fa-pen-fancy text-white text-2xl"></i>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Strategic Content Strategy</h3>
-                    <p class="text-gray-700 leading-relaxed mb-4">
+                    <h3 class="text-2xl font-bold text-white mb-4">Strategic Content Strategy</h3>
+                    <p class="text-light-gray leading-relaxed mb-4">
                         Our content experts develop data-driven strategies that attract your target audience and establish your authority. We create compelling, SEO-optimized content that ranks and converts.
                     </p>
-                    <ul class="space-y-2 text-gray-600">
+                    <ul class="space-y-2 text-gray-300">
                         <li class="flex items-start">
-                            <i class="fas fa-check text-purple-600 mr-3 mt-1 flex-shrink-0"></i>
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
                             <span>Keyword research and analysis</span>
                         </li>
                         <li class="flex items-start">
-                            <i class="fas fa-check text-purple-600 mr-3 mt-1 flex-shrink-0"></i>
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
                             <span>High-performing content creation</span>
                         </li>
                         <li class="flex items-start">
-                            <i class="fas fa-check text-purple-600 mr-3 mt-1 flex-shrink-0"></i>
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
                             <span>Content calendar management</span>
                         </li>
                     </ul>
                 </div>
 
                 <!-- Feature 3: Link Building Excellence -->
-                <div class="feature-card p-8 bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl border border-gray-200 hover:border-purple-300">
-                    <div class="w-14 h-14 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center mb-6">
+                <div class="feature-card p-8 bg-gray-800 rounded-xl border border-gray-700 hover:border-green-500">
+                    <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-600 rounded-lg flex items-center justify-center mb-6">
                         <i class="fas fa-link text-white text-2xl"></i>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Link Building Excellence</h3>
-                    <p class="text-gray-700 leading-relaxed mb-4">
+                    <h3 class="text-2xl font-bold text-white mb-4">Link Building Excellence</h3>
+                    <p class="text-light-gray leading-relaxed mb-4">
                         We build authoritative, high-quality backlinks that boost your domain authority and search rankings. Our ethical link-building approach ensures sustainable growth and credibility.
                     </p>
-                    <ul class="space-y-2 text-gray-600">
+                    <ul class="space-y-2 text-gray-300">
                         <li class="flex items-start">
-                            <i class="fas fa-check text-purple-600 mr-3 mt-1 flex-shrink-0"></i>
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
                             <span>Premium resource placement</span>
                         </li>
                         <li class="flex items-start">
-                            <i class="fas fa-check text-purple-600 mr-3 mt-1 flex-shrink-0"></i>
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
                             <span>Authority site partnerships</span>
                         </li>
                         <li class="flex items-start">
-                            <i class="fas fa-check text-purple-600 mr-3 mt-1 flex-shrink-0"></i>
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
                             <span>Backlink profile monitoring</span>
                         </li>
                     </ul>
@@ -207,82 +226,82 @@
     </section>
 
     <!-- Benefits Section -->
-    <section id="benefits" class="py-16 md:py-24 bg-gradient-to-br from-purple-50 via-white to-pink-50">
+    <section id="benefits" class="py-16 md:py-24 bg-dark">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 tracking-tight">
                     Transformative Results You Can Measure
                 </h2>
-                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                <p class="text-lg text-light-gray max-w-2xl mx-auto">
                     Our clients experience significant improvements across all key metrics within the first 90 days.
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Benefit 1: Higher Quality Leads -->
-                <div class="group p-8 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
+                <div class="group p-8 bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-700">
                     <div class="flex items-start mb-6">
-                        <div class="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                        <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
                             <i class="fas fa-users text-white text-2xl"></i>
                         </div>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Higher Quality Leads</h3>
-                    <p class="text-gray-700 leading-relaxed mb-4">
+                    <h3 class="text-2xl font-bold text-white mb-3">Higher Quality Leads</h3>
+                    <p class="text-light-gray leading-relaxed mb-4">
                         Our targeted SEO strategies attract genuinely interested prospects who are actively searching for your solutions. This means higher conversion rates and better ROI on your marketing investment.
                     </p>
-                    <div class="space-y-3 text-sm text-gray-600">
+                    <div class="space-y-3 text-sm text-gray-300">
                         <div class="flex items-center">
-                            <span class="text-2xl font-bold text-purple-600 mr-3">3x</span>
+                            <span class="text-2xl font-bold text-green-500 mr-3">3x</span>
                             <span>More qualified leads on average</span>
                         </div>
                         <div class="flex items-center">
-                            <span class="text-2xl font-bold text-purple-600 mr-3">45%</span>
+                            <span class="text-2xl font-bold text-green-500 mr-3">45%</span>
                             <span>Higher conversion rates</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- Benefit 2: Stronger Brand Authority -->
-                <div class="group p-8 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
+                <div class="group p-8 bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-700">
                     <div class="flex items-start mb-6">
-                        <div class="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                        <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
                             <i class="fas fa-crown text-white text-2xl"></i>
                         </div>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Stronger Brand Authority</h3>
-                    <p class="text-gray-700 leading-relaxed mb-4">
+                    <h3 class="text-2xl font-bold text-white mb-3">Stronger Brand Authority</h3>
+                    <p class="text-light-gray leading-relaxed mb-4">
                         Establish your business as an industry leader through strategic content placement, thought leadership, and authoritative backlinks that build trust with both customers and search engines.
                     </p>
-                    <div class="space-y-3 text-sm text-gray-600">
+                    <div class="space-y-3 text-sm text-gray-300">
                         <div class="flex items-center">
-                            <span class="text-2xl font-bold text-purple-600 mr-3">10x</span>
+                            <span class="text-2xl font-bold text-green-500 mr-3">10x</span>
                             <span>Increased domain authority</span>
                         </div>
                         <div class="flex items-center">
-                            <span class="text-2xl font-bold text-purple-600 mr-3">60%</span>
+                            <span class="text-2xl font-bold text-green-500 mr-3">60%</span>
                             <span>More brand searches</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- Benefit 3: Sustainable Market Share -->
-                <div class="group p-8 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
+                <div class="group p-8 bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-700">
                     <div class="flex items-start mb-6">
-                        <div class="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                        <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
                             <i class="fas fa-chart-line text-white text-2xl"></i>
                         </div>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Sustainable Market Share</h3>
-                    <p class="text-gray-700 leading-relaxed mb-4">
+                    <h3 class="text-2xl font-bold text-white mb-3">Sustainable Market Share</h3>
+                    <p class="text-light-gray leading-relaxed mb-4">
                         Unlike paid advertising that stops working when you stop paying, our SEO strategies build long-term competitive advantages that continue delivering results year after year.
                     </p>
-                    <div class="space-y-3 text-sm text-gray-600">
+                    <div class="space-y-3 text-sm text-gray-300">
                         <div class="flex items-center">
-                            <span class="text-2xl font-bold text-purple-600 mr-3">80%</span>
+                            <span class="text-2xl font-bold text-green-500 mr-3">80%</span>
                             <span>Long-term visibility increase</span>
                         </div>
                         <div class="flex items-center">
-                            <span class="text-2xl font-bold text-purple-600 mr-3">5x</span>
+                            <span class="text-2xl font-bold text-green-500 mr-3">5x</span>
                             <span>Better ROI than PPC</span>
                         </div>
                     </div>
@@ -292,19 +311,19 @@
     </section>
 
     <!-- About Us Section -->
-    <section class="py-16 md:py-24 bg-white">
+    <section class="py-16 md:py-24 bg-gray-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="max-w-4xl mx-auto">
-                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-12 text-center tracking-tight">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-12 text-center tracking-tight">
                     About Beyond Clicks
                 </h2>
                 
                 <div class="space-y-8">
-                    <p class="text-lg text-gray-700 leading-relaxed">
+                    <p class="text-lg text-light-gray leading-relaxed">
                         Founded in 2015 by a team of digital marketing veterans, Beyond Clicks emerged from a simple observation: most SEO agencies focused on rankings rather than results. Our founders, frustrated by the disconnect between top rankings and actual business growth, decided to build something different. Starting with just three dedicated professionals in Melbourne, we've grown into a full-service SEO powerhouse serving businesses across Australia and beyond. Today, we've helped over 500 companies achieve their digital transformation goals, generating millions in additional revenue for our clients. Our journey has been built on unwavering commitment to transparency, measurable results, and genuine partnership with our clients.
                     </p>
                     
-                    <p class="text-lg text-gray-700 leading-relaxed">
+                    <p class="text-lg text-light-gray leading-relaxed">
                         Our core mission is straightforward: to empower businesses with SEO strategies that drive real, measurable growth. We believe in ethical, white-hat SEO practices that build lasting competitive advantages. Our values—integrity, innovation, and client success—guide every decision we make. We invest heavily in continuous learning, staying ahead of algorithm updates and emerging trends. We're not just service providers; we're strategic partners invested in your success. Every member of our team shares a passion for helping businesses thrive in the digital landscape, and that dedication shows in the exceptional results we deliver consistently for our clients.
                     </p>
                 </div>
@@ -313,20 +332,20 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="py-16 md:py-24 bg-gradient-to-br from-gray-50 to-gray-100">
+    <section id="testimonials" class="py-16 md:py-24 bg-dark">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 tracking-tight">
                     What Our Clients Say
                 </h2>
-                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                <p class="text-lg text-light-gray max-w-2xl mx-auto">
                     Real results from real businesses who trusted us with their SEO strategy.
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 <!-- Testimonial 1 -->
-                <div class="testimonial-card p-8 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
+                <div class="testimonial-card p-8 bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-700">
                     <div class="flex items-center mb-4">
                         <div class="flex text-yellow-400">
                             <i class="fas fa-star"></i>
@@ -336,22 +355,22 @@
                             <i class="fas fa-star"></i>
                         </div>
                     </div>
-                    <p class="text-gray-700 leading-relaxed mb-6">
+                    <p class="text-light-gray leading-relaxed mb-6">
                         "Beyond Clicks completely transformed our online presence. Within just 6 months, our organic traffic increased by 320%, and we're now consistently ranking on the first page for our most important keywords. The team's strategic approach and transparency throughout the process was exceptional."
                     </p>
                     <div class="flex items-center">
-                        <div class="w-12 h-12 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
                             JM
                         </div>
                         <div>
-                            <p class="font-bold text-gray-900">James Mitchell</p>
-                            <p class="text-sm text-gray-600">Managing Director, Tech Solutions Australia</p>
+                            <p class="font-bold text-white">James Mitchell</p>
+                            <p class="text-sm text-light-gray">Managing Director, Tech Solutions Australia</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Testimonial 2 -->
-                <div class="testimonial-card p-8 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
+                <div class="testimonial-card p-8 bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-700">
                     <div class="flex items-center mb-4">
                         <div class="flex text-yellow-400">
                             <i class="fas fa-star"></i>
@@ -361,22 +380,22 @@
                             <i class="fas fa-star"></i>
                         </div>
                     </div>
-                    <p class="text-gray-700 leading-relaxed mb-6">
+                    <p class="text-light-gray leading-relaxed mb-6">
                         "We were skeptical about SEO at first, but Beyond Clicks proved its worth immediately. They didn't just promise results; they delivered them. Our lead quality improved dramatically, and our sales team is thrilled with the caliber of prospects coming through organic search. Highly recommended!"
                     </p>
                     <div class="flex items-center">
-                        <div class="w-12 h-12 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
                             SP
                         </div>
                         <div>
-                            <p class="font-bold text-gray-900">Sarah Patterson</p>
-                            <p class="text-sm text-gray-600">CEO, Melbourne Marketing Group</p>
+                            <p class="font-bold text-white">Sarah Patterson</p>
+                            <p class="text-sm text-light-gray">CEO, Melbourne Marketing Group</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Testimonial 3 -->
-                <div class="testimonial-card p-8 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
+                <div class="testimonial-card p-8 bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-700">
                     <div class="flex items-center mb-4">
                         <div class="flex text-yellow-400">
                             <i class="fas fa-star"></i>
@@ -386,22 +405,22 @@
                             <i class="fas fa-star"></i>
                         </div>
                     </div>
-                    <p class="text-gray-700 leading-relaxed mb-6">
+                    <p class="text-light-gray leading-relaxed mb-6">
                         "The Beyond Clicks team took the time to understand our business before diving into optimization. Their holistic approach—combining technical SEO, content strategy, and link building—has been transformative. We've seen consistent month-over-month growth in both traffic and conversions. They're true professionals."
                     </p>
                     <div class="flex items-center">
-                        <div class="w-12 h-12 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
                             RK
                         </div>
                         <div>
-                            <p class="font-bold text-gray-900">Robert Kim</p>
-                            <p class="text-sm text-gray-600">Founder, Digital Commerce Innovations</p>
+                            <p class="font-bold text-white">Robert Kim</p>
+                            <p class="text-sm text-light-gray">Founder, Digital Commerce Innovations</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Testimonial 4 -->
-                <div class="testimonial-card p-8 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100">
+                <div class="testimonial-card p-8 bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-700">
                     <div class="flex items-center mb-4">
                         <div class="flex text-yellow-400">
                             <i class="fas fa-star"></i>
@@ -411,16 +430,16 @@
                             <i class="fas fa-star"></i>
                         </div>
                     </div>
-                    <p class="text-gray-700 leading-relaxed mb-6">
+                    <p class="text-light-gray leading-relaxed mb-6">
                         "What impressed me most about Beyond Clicks was their commitment to education. They didn't just implement strategies; they explained everything clearly and kept us informed every step of the way. Our ROI has been incredible, and we're now considered an authority in our industry. Worth every penny!"
                     </p>
                     <div class="flex items-center">
-                        <div class="w-12 h-12 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
                             EH
                         </div>
                         <div>
-                            <p class="font-bold text-gray-900">Emily Harrison</p>
-                            <p class="text-sm text-gray-600">Marketing Manager, Premium Consulting Group</p>
+                            <p class="font-bold text-white">Emily Harrison</p>
+                            <p class="text-sm text-light-gray">Marketing Manager, Premium Consulting Group</p>
                         </div>
                     </div>
                 </div>
@@ -429,63 +448,63 @@
     </section>
 
     <!-- FAQ Section -->
-    <section id="faq" class="py-16 md:py-24 bg-white">
+    <section id="faq" class="py-16 md:py-24 bg-gray-900">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 tracking-tight">
                     Frequently Asked Questions
                 </h2>
-                <p class="text-lg text-gray-600">
+                <p class="text-lg text-light-gray">
                     Everything you need to know about our SEO services and how we can help your business grow.
                 </p>
             </div>
 
             <div class="space-y-8">
                 <!-- FAQ Item 1 -->
-                <div class="border border-gray-200 rounded-xl overflow-hidden hover:border-purple-300 transition-colors duration-300">
-                    <div class="px-6 py-5 bg-white">
-                        <h3 class="text-lg font-semibold text-gray-900 mb-4">How long does it take to see SEO results?</h3>
-                        <p class="text-gray-700 leading-relaxed">
+                <div class="border border-gray-700 rounded-xl overflow-hidden hover:border-green-500 transition-colors duration-300">
+                    <div class="px-6 py-5 bg-gray-800">
+                        <h3 class="text-lg font-semibold text-white mb-4">How long does it take to see SEO results?</h3>
+                        <p class="text-light-gray leading-relaxed">
                             SEO is a long-term investment, but you'll typically start seeing initial results within 3-6 months. Most of our clients experience significant improvements in rankings and traffic within 6-12 months. Quick wins like technical improvements and content optimization can show results faster, while competitive keyword rankings may take longer depending on your industry. We provide monthly reports showing progress and adjustments to our strategy based on performance data. The key is consistency and patience—SEO compounds over time, delivering increasingly better results as your domain authority and content portfolio grow.
                         </p>
                     </div>
                 </div>
 
                 <!-- FAQ Item 2 -->
-                <div class="border border-gray-200 rounded-xl overflow-hidden hover:border-purple-300 transition-colors duration-300">
-                    <div class="px-6 py-5 bg-white">
-                        <h3 class="text-lg font-semibold text-gray-900 mb-4">What makes your SEO approach different?</h3>
-                        <p class="text-gray-700 leading-relaxed">
+                <div class="border border-gray-700 rounded-xl overflow-hidden hover:border-green-500 transition-colors duration-300">
+                    <div class="px-6 py-5 bg-gray-800">
+                        <h3 class="text-lg font-semibold text-white mb-4">What makes your SEO approach different?</h3>
+                        <p class="text-light-gray leading-relaxed">
                             We focus on business results, not just rankings. While many agencies chase keyword positions, we prioritize attracting high-quality leads and driving conversions. Our approach combines technical SEO excellence, strategic content creation, and ethical link building—all aligned with your business objectives. We also emphasize transparency and education, ensuring you understand our strategies and can see measurable progress. Our team stays updated with the latest algorithm changes and best practices, and we customize every strategy to your specific industry, competition, and goals. We're not a one-size-fits-all agency; we're strategic partners invested in your long-term success.
                         </p>
                     </div>
                 </div>
 
                 <!-- FAQ Item 3 -->
-                <div class="border border-gray-200 rounded-xl overflow-hidden hover:border-purple-300 transition-colors duration-300">
-                    <div class="px-6 py-5 bg-white">
-                        <h3 class="text-lg font-semibold text-gray-900 mb-4">Do you guarantee first-page rankings?</h3>
-                        <p class="text-gray-700 leading-relaxed">
+                <div class="border border-gray-700 rounded-xl overflow-hidden hover:border-green-500 transition-colors duration-300">
+                    <div class="px-6 py-5 bg-gray-800">
+                        <h3 class="text-lg font-semibold text-white mb-4">Do you guarantee first-page rankings?</h3>
+                        <p class="text-light-gray leading-relaxed">
                             We don't guarantee specific rankings because no reputable SEO agency can—Google's algorithms are complex and constantly evolving. Anyone promising guaranteed rankings is likely using black-hat techniques that could harm your site. What we do guarantee is our commitment to best practices, transparency, and continuous optimization. We set realistic expectations based on your industry, competition, and current website state. We focus on metrics that matter: organic traffic growth, qualified leads, and conversions. Our track record speaks for itself—the vast majority of our clients achieve first-page rankings for their primary keywords within 6-12 months through ethical, sustainable strategies.
                         </p>
                     </div>
                 </div>
 
                 <!-- FAQ Item 4 -->
-                <div class="border border-gray-200 rounded-xl overflow-hidden hover:border-purple-300 transition-colors duration-300">
-                    <div class="px-6 py-5 bg-white">
-                        <h3 class="text-lg font-semibold text-gray-900 mb-4">What's included in your SEO packages?</h3>
-                        <p class="text-gray-700 leading-relaxed">
+                <div class="border border-gray-700 rounded-xl overflow-hidden hover:border-green-500 transition-colors duration-300">
+                    <div class="px-6 py-5 bg-gray-800">
+                        <h3 class="text-lg font-semibold text-white mb-4">What's included in your SEO packages?</h3>
+                        <p class="text-light-gray leading-relaxed">
                             Our SEO packages are customized based on your business needs and goals, but typically include: comprehensive SEO audits, keyword research and strategy, on-page optimization, technical SEO improvements, content creation and optimization, link building campaigns, monthly reporting and analytics, and ongoing strategy adjustments. We also provide regular communication and consultation to ensure you're informed and aligned with our approach. Starter packages focus on foundational SEO, while premium packages include more aggressive content creation, advanced technical optimizations, and strategic link building. We'll work with you to determine the right package that fits your budget and delivers the results you need.
                         </p>
                     </div>
                 </div>
 
                 <!-- FAQ Item 5 -->
-                <div class="border border-gray-200 rounded-xl overflow-hidden hover:border-purple-300 transition-colors duration-300">
-                    <div class="px-6 py-5 bg-white">
-                        <h3 class="text-lg font-semibold text-gray-900 mb-4">Can you help with my current SEO problems?</h3>
-                        <p class="text-gray-700 leading-relaxed">
+                <div class="border border-gray-700 rounded-xl overflow-hidden hover:border-green-500 transition-colors duration-300">
+                    <div class="px-6 py-5 bg-gray-800">
+                        <h3 class="text-lg font-semibold text-white mb-4">Can you help with my current SEO problems?</h3>
+                        <p class="text-light-gray leading-relaxed">
                             Absolutely. We specialize in diagnosing and fixing SEO issues, whether you've been penalized by Google, experienced a sudden traffic drop, or are struggling with poor rankings. Our first step is a comprehensive audit to identify problems—whether they're technical issues, poor content quality, toxic backlinks, or algorithm penalties. We then develop a recovery plan with clear milestones and timelines. We've successfully recovered sites from various penalties and improved underperforming websites significantly. If you're experiencing SEO challenges, contact us for a free consultation. We'll analyze your situation and recommend specific actions to get your site back on track.
                         </p>
                     </div>
@@ -497,7 +516,7 @@
     <!-- CTA Section -->
     <section class="relative py-20 md:py-32 overflow-hidden">
         <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=400&fit=crop'); opacity: 0.15;"></div>
-        <div class="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 opacity-90"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-green-500 to-emerald-600 opacity-90"></div>
         
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 tracking-tight leading-tight">
@@ -507,10 +526,10 @@
                 Join hundreds of Australian businesses that have achieved remarkable growth through our proven SEO strategies. Let's connect you with ready-to-buy customers today.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <a href="https://test.com" class="cta-button px-8 py-4 bg-white text-purple-600 rounded-lg font-bold text-lg hover:shadow-xl transition-all duration-300">
+                <a href="https://test.com" class="cta-button px-8 py-4 bg-white text-green-600 rounded-lg font-bold text-lg hover:shadow-xl transition-all duration-300">
                     Get Your Free SEO Audit
                 </a>
-                <a href="mailto:test@test.com" class="px-8 py-4 border-2 border-white text-white rounded-lg font-bold text-lg hover:bg-white hover:text-purple-600 transition-all duration-300">
+                <a href="mailto:test@test.com" class="px-8 py-4 border-2 border-white text-white rounded-lg font-bold text-lg hover:bg-white hover:text-green-600 transition-all duration-300">
                     Contact Us Today
                 </a>
             </div>
@@ -524,7 +543,7 @@
                 <!-- Company Info -->
                 <div>
                     <div class="flex items-center space-x-2 mb-6">
-                        <div class="w-10 h-10 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center">
+                        <div class="w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-600 rounded-lg flex items-center justify-center">
                             <i class="fas fa-rocket text-white"></i>
                         </div>
                         <span class="text-xl font-bold text-white">Beyond Clicks</span>
@@ -538,10 +557,10 @@
                 <div>
                     <h3 class="text-lg font-bold text-white mb-6">Services</h3>
                     <ul class="space-y-3">
-                        <li><a href="#features" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">SEO Optimization</a></li>
-                        <li><a href="#features" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Content Strategy</a></li>
-                        <li><a href="#features" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Link Building</a></li>
-                        <li><a href="#features" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Technical SEO</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-green-500 transition-colors duration-300">SEO Optimization</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-green-500 transition-colors duration-300">Content Strategy</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-green-500 transition-colors duration-300">Link Building</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-green-500 transition-colors duration-300">Technical SEO</a></li>
                     </ul>
                 </div>
 
@@ -549,10 +568,10 @@
                 <div>
                     <h3 class="text-lg font-bold text-white mb-6">Resources</h3>
                     <ul class="space-y-3">
-                        <li><a href="blog.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Blog</a></li>
-                        <li><a href="#faq" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">FAQ</a></li>
-                        <li><a href="#testimonials" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Case Studies</a></li>
-                        <li><a href="https://test.com" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Get Started</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-green-500 transition-colors duration-300">Blog</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-green-500 transition-colors duration-300">FAQ</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-green-500 transition-colors duration-300">Case Studies</a></li>
+                        <li><a href="https://test.com" class="text-gray-400 hover:text-green-500 transition-colors duration-300">Get Started</a></li>
                     </ul>
                 </div>
 
@@ -562,21 +581,21 @@
                     <div class="space-y-4">
                         <div>
                             <p class="text-gray-400 mb-2">Email</p>
-                            <a href="mailto:test@test.com" class="text-purple-400 hover:text-purple-300 transition-colors duration-300 font-medium">test@test.com</a>
+                            <a href="mailto:test@test.com" class="text-green-500 hover:text-green-400 transition-colors duration-300 font-medium">test@test.com</a>
                         </div>
                         <div>
                             <p class="text-gray-400 mb-2">Follow Us</p>
                             <div class="flex space-x-4">
-                                <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300" aria-label="Facebook">
+                                <a href="#" class="text-gray-400 hover:text-green-500 transition-colors duration-300" aria-label="Facebook">
                                     <i class="fab fa-facebook text-lg"></i>
                                 </a>
-                                <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300" aria-label="Twitter">
+                                <a href="#" class="text-gray-400 hover:text-green-500 transition-colors duration-300" aria-label="Twitter">
                                     <i class="fab fa-twitter text-lg"></i>
                                 </a>
-                                <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300" aria-label="LinkedIn">
+                                <a href="#" class="text-gray-400 hover:text-green-500 transition-colors duration-300" aria-label="LinkedIn">
                                     <i class="fab fa-linkedin text-lg"></i>
                                 </a>
-                                <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300" aria-label="Instagram">
+                                <a href="#" class="text-gray-400 hover:text-green-500 transition-colors duration-300" aria-label="Instagram">
                                     <i class="fab fa-instagram text-lg"></i>
                                 </a>
                             </div>
@@ -590,13 +609,13 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                     <div>
                         <p class="text-gray-400 text-sm">
-                            &copy; 2025 Beyond Clicks. All rights reserved. Crafted with <i class="fas fa-heart text-pink-600"></i> in Melbourne.
+                            &copy; 2025 Beyond Clicks. All rights reserved. Crafted with <i class="fas fa-heart text-green-600"></i> in Melbourne.
                         </p>
                     </div>
                     <div class="flex flex-col sm:flex-row gap-6 sm:justify-end">
-                        <a href="privacy.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Privacy Policy</a>
-                        <a href="terms.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Terms of Service</a>
-                        <a href="blog.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Blog</a>
+                        <a href="privacy.html" class="text-gray-400 hover:text-green-500 transition-colors duration-300 text-sm">Privacy Policy</a>
+                        <a href="terms.html" class="text-gray-400 hover:text-green-500 transition-colors duration-300 text-sm">Terms of Service</a>
+                        <a href="blog.html" class="text-gray-400 hover:text-green-500 transition-colors duration-300 text-sm">Blog</a>
                     </div>
                 </div>
             </div>
